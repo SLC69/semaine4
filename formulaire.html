@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulaire.css">
+    <title>FORMULAIRE</title>
+</head>
+
+<h2>Formulaire d'enquête sur les médias sociaux</h2>
+
+<body>
+<div class="center">
+    <p>Veuillez remplir tous les champs</p>
+    <form>
+        <label for="NOM">NOM :</label>
+        <input type="text" id="NOM" name="NOM" value=""><br>
+        <label for="EMAIL">EMAIL :</label>
+        <input type="text" id="EMAIL" name="EMAIL" value=""><br>
+        <label for="AGE">AGE :</label>
+        <input type="text" id="AGE" name="AGE" value=""><br>
+        </form>
+      <br>
+      <form>
+        <label for="application">Quelle application sur les réseaux sociaux utilisez-vous ? :</label><br>
+        <select id="application" name="application">
+          <option value="Facebook">Facebook</option>
+          <option value="Twitter">Twitter</option>
+          <option value="Instagram">Instagram</option>
+          <option value="Meetup">Meetup</option>
+        </select>
+       <br>
+        <p>Combien d'heures utilisez-vous ?</p>
+      <form>
+        <input type="radio" id="0-1 heure" name="0-1 heure" value="0-1 heure">
+        <label for="0-1 heure">0-1 heure</label><br>
+        <input type="radio" id="1-2 heures" name="1-2 heures" value="1-2 heures">
+        <label for="1-2 heures">1-2 heures</label><br>
+        <input type="radio" id="2-3 heures" name="2-3 heures" value="2-3 heures">
+        <label for="2-3 heures">2-3 heures</label><br>
+        <input type="radio" id="3-4 heures" name="3-4 heures" value="3-4 heures">
+        <label for="3-4 heures">3-4 heures</label><br>
+        <input type="radio" id="4+ heures" name="4+ heures" value="4+ heures">
+        <label for="4+ heures">4+ heures</label><br>
+      </form>
+      <br>
+      <p>Pourquoi utilisez-vous cette application ?</p>
+      <form>
+        <input type="checkbox" id="motif1" name="motif1" value="Actualités">
+        <label for="Actualités">Actualités</label><br>
+        <input type="checkbox" id="motif2" name="motif2" value="Professionnel">
+        <label for="Professionnel">Professionnel</label><br>
+        <input type="checkbox" id="motif3" name="motif3" value="Voyages">
+        <label for="Voyages">Voyages</label><br>
+        <input type="checkbox" id="motif4" name="motif4" value="Passe temps">
+        <label for="Passe temps">Passe temps</label><br>
+        <input type="checkbox" id="motif5" name="motif5" value="Inspirations">
+        <label for="Inspirations">Inspirations</label><br>
+        <input type="checkbox" id="motif6" name="motif6" value="Photos">
+        <label for="Photos">Photos</label><br>
+        <input type="checkbox" id="motif7" name="motif7" value="Videos">
+        <label for="Videos">Videos</label><br>
+        </form> 
+      <br>
+      <p>Des commentaires ou suggestions ?</p>
+      <textarea rows="commentaires" cols="50" name="commentaires" form="usrform">
+        Mettez vos commentaires</textarea>
+    <br>
+      <button type="button" onclick="alert('Message envoyé')">Envoyer</button>
+
+    </div>
+    </body>
+
+</html>
